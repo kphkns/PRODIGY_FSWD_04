@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wassup chat app</title>
+    <link rel="stylesheet" href="/style.css"> 
+</head>
+<body>
+    <section class="chat__section">
+        <div class="header">
+            <div class="back-icon">
+                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 6l-6 6 6 6" stroke="#555" stroke-width="2"/></svg>
+            </div>
+            <img height="30" src="wassup.png" alt="Logo">
+            <h2>CHAT APPS</h2>
+            <div class="status-icon">✔</div>
+        </div>
+
+        <div class="message__area">
+            
+        </div>
+
+        <div class="input-area">
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
